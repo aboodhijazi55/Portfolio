@@ -1,0 +1,135 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  width: 100vw;
+
+  padding: 58px 6%;
+  gap: 10px;
+}
+
+.container footer {
+  width: 50%;
+}
+
+
+
+.text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  width: 30px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .links {
+    align-items: flex-start;
+  }
+}
+
+@media (width<830px) {
+  .container {
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .container footer {
+    text-align: start;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text {
+    width: 100%;
+
+  }
+
+  .links {
+    /* align-items: flex-start; */
+    width: fit-content;
+  }
+
+  .email form {
+    background-color: aqua;
+  }
+}
+
+@media (width<391px) {
+  .container footer {
+    text-align: start;
+    width: 100%;
+  }
+
+  .text h2 {
+
+    font-size: 25px;
+
+  }
+
+  .text p {
+
+    font-size: 20px;
+
+  }
+
+  .link a {
+    font-size: 15px;
+  }
+
+  .email form {
+    background-color: aqua;
+  }
+}

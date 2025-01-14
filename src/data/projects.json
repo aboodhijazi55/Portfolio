@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "/projects/xo.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project A",
+    "imageSrc": "/projects/xo.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Museum Of Candy",
+    "imageSrc": "projects/candy.png",
+    "description": "This is a small project while learning HTML & CSS",
+    "skills": [
+      "HTML",
+      "CSS"
+    ],
+    "demo": "https://aboodhijazi55.github.io/museum_of_candy/",
+    "source": "https://github.com/aboodhijazi55/museum_of_candy"
+  },
+  {
+    "title": "Tic-Tac-Toe",
+    "imageSrc": "projects/xo.png",
+    "description": "This is a project made to learn React.",
+    "skills": [
+      "React"
+    ],
+    "demo": "https://aboodhijazi55.github.io/X-O-Game/",
+    "source": "https://github.com/aboodhijazi55/X-O-Game"
+  }
+]

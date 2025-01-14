@@ -1,0 +1,25 @@
+.email {
+    max-width: 50%;
+}
+
+.email form {
+    width: 350px;
+}
+
+@media screen and (max-width: 830px) {
+    .email form {
+        text-align: center;
+    }
+}
+
+@media (width<830px) {
+    .email {
+        max-width: 100%;
+    }
+}
+
+@media (width <391px) {
+    .email form {
+        width: 290px;
+    }
+}
