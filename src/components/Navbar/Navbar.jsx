@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import styles from "./Navbar.module.css";
-import { nav1, nav2 } from "../../utils";
+import { nav1, nav2, aboodLogo } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +11,9 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
+
       <a className={styles.title} href="/">
+        <img src={aboodLogo} alt="logo" className={styles.logo} />
         Portfolio
       </a>
       <div className={styles.menu}>
@@ -30,9 +32,7 @@ export const Navbar = () => {
           <li>
             <a href="#about">About</a>
           </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
+
           <li>
             <a href="#projects">Projects</a>
           </li>
