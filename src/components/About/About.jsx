@@ -26,7 +26,7 @@ export const About = () => {
               <h3>Frontend Developer</h3>
               <p>
 
-                My Front-End skills are : <span> HTML5 | CSS3 | JavaScript | React | EJS | Redux | Material UI | Bootstrap | jQuery.</span>
+                My Front-End skills are : <span> HTML5 | CSS3 | JavaScript | React | EJS | NextJs | Material UI | Bootstrap | jQuery.</span>
               </p>
             </div>
           </li>

@@ -22,5 +22,9 @@
   {
     "title": "PostgreSQL",
     "imageSrc": "/skills/pg.png"
+  },
+  {
+    "title": "NextJs",
+    "imageSrc": "/skills/next.png"
   }
 ]
